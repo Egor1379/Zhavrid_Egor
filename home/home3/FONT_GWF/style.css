@@ -3,6 +3,7 @@ h1 {
     color:rgb(58, 173, 226);
     text-align: center;
     font-size: 20px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -17,11 +18,15 @@ h2 {
     line-height: 80%;
     font-weight: 500;
     text-indent: 1cm;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .font2 {
     font-family: 'Poiret One', cursive;
-    line-height: 80%;
+    line-height: 110%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
  /* images */
@@ -32,11 +37,23 @@ img {
    }
 
    /* tegs */
+   body {
+       background-color: rgba(196, 183, 183, 0.575);
+   }
+      
    span {
        font-weight: bold;
        color:rgba(238, 44, 44, 0.733)
    }
 
    li {
-        
-   }
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(4, 182, 72);
+    margin-left: 30px;
+    }
+
+   strong {
+       color: rgba(238, 44, 44, 0.733);
+   } 
