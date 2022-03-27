@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./color.css">
+    <title>Font</title>
+</head>
+<body>
+     <h1>Почему HTML считает, что «#BruceWillis» — это цвет?</h1>
+      
+        <p>Разберем забавную ситуацию и запишем вот такую html конструкцию:</p>
+             <div> 
+                 <span class="span1">&lt;font color="#BruceWillis"&gt; Bruce Willis &lt;/font&gt;</span>
+            </div>   
+    
+        <p>Получим вот такой результат:</p>
+        
+            <div>
+                <font color="#BruceWillis">Bruce Willis</font>
+             </div>
+    
+        <p>Интересно, не правда ли?</p>
+
+            <p>А дело в том, что наши цвета имеют шестнадцатеричный код, в нем же пропускаемые цифры распознаются как 0. Некорректные символы распознаются как 0. Так что, например, значения #F0F0F0, F0F0F0, F0F0F, #FxFxFx и FxFxFx – одно и то же.</p>
+
+        <p>Давайте разбираться.</p>
+
+             <ul>
+                 <li>Заменяем все неправильные шестнадцатеричные символы нулями. <strong>BruceWillis</strong> превращается в <strong> b00ce000000 </strong>.</li>
+                 <li>“Добиваем” число нулями до количества знаков, делимого на 3, получаем <strong>b00c e000 0000</strong>. </li>
+                 <li>Разбиваем на три группы, каждая из которых отвечает за одну компоненту RGB: <strong> RGB (b00c e000 0000)</strong>.</li>
+                 <li>Обрезаем каждый из аргументов справа, оставляя 2 символа, и получаем наш результат <strong>RGB (b0 e0 00) = #b0e000</strong> или он же <strong">RGB (176, 224, 0)</strong>и является салатовым цветом.</li>
+             </ul>
+    
+</body>
+</html>
