@@ -1,11 +1,12 @@
- {
-    color: #b0e000;
-}
-
 h1 {
     color: rgb(136, 78, 78);
     text-align: center;
     margin-bottom: 50px;
+}
+h2 {
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 40px;
 }
 
 p {
@@ -20,6 +21,12 @@ p {
     border-style: solid;
     border-color: blue;
     }
+.span2 {
+    font-size: 30px;
+    color: rgb(0, 255, 42);
+    border-style: solid;
+    border-color: blue;
+}
  
 div {
     text-align: center;
