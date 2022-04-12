@@ -55,11 +55,13 @@ table {
 .content2 {
     background: url('img/ball.gif') top right repeat-y;
     padding: 0px 30px 15px 15px;
+    vertical-align: top;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 img {
