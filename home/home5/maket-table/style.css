@@ -54,7 +54,7 @@ table {
 /* содержимое страницы*/
 .content2 {
     background: url('img/ball.gif') top right repeat-y;
-    padding: 15px 30px 15px 15px;
+    padding: 0px 30px 15px 15px;
 }
 
 h1 {

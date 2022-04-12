@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Заглавная строка*/
+.header {
+    text-align: center;
+    color: blue;
+    background-color: rgba(178, 178, 241, 0.811);
+    padding: 10px 0 10px 0;
+    }
+
+h1{
+   font-size: 23px;
+}
+
+.footer {
+    text-align: center;
+    color: blue;
+    background-color: rgba(178, 178, 241, 0.811);
+    padding: 10px 0 10px 0;
+    }
+
+
+
+/*Главная контентная область*/
+
+.content {
+    background-color: rgb(240,230,140);    
+}
+
+    /*Меню*/
+.menu {
+    width: 300px;
+   /* background-color: rgb(240,230,140);*/
+    float: left;
+    padding: 20px 0 20px 0;
+    }
+
+h4 {
+    font-size: 26px;
+}
+
+ul {
+    margin: 20px 20px 0 15px;
+ }
+
+ li {
+    margin: 10px 0 0 10px;
+    font-size: 22px;
+ }
+
+/*Контент*/
+.content2 {
+    margin-left: 300px;
+    background: url('img/ball.gif') top right repeat-y;
+    padding: 0px 30px 0px 15px;
+    background-color: white;
+    }
+
+h2 {
+    text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+img {
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+p{
+    margin-bottom: 8px;
+}
