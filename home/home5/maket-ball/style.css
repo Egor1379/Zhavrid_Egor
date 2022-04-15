@@ -3,15 +3,24 @@
     padding: 0;
     margin: 0;
 }
+/*header и footer */
+.header, .footer{
+    background-color: aqua;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 /*Общий контент*/
+
 .content1 {
-background-color: ;
+background: url('img/banner1.gif') right top repeat-y,  url('img/background2.gif') 20% top repeat-y;
 }
 
 /*Меню*/
 .menu {
-background-color: rgba(23, 140, 23, 0.608);
+
 width: 20%;
 float: left;
 }
@@ -28,8 +37,7 @@ li {
 /*Контент*/
 .content2 {
 margin-left: 20%;
-background-color: rgba(255, 0, 0, 0.416);
-
+margin-right: 200px;
 }
 
 
@@ -37,5 +45,5 @@ background-color: rgba(255, 0, 0, 0.416);
 .banner {
 float: right;
 width: 200px;
-background-color: rgba(137, 43, 226, 0.712);
+
 }
