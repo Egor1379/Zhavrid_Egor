@@ -1,0 +1,22 @@
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.date {
+    color: green;
+}
+
+.champion {
+    color: red;
+}
+
+.biography {
+    font-style: italic;
+    color: blue;
+}
+
+a:before{
+    content:url('image/extref.png');
+}
