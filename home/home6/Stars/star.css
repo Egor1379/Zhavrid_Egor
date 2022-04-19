@@ -1,0 +1,41 @@
+
+
+
+.star1,.star2,.star3,.star4,.star5{
+    background: url('./img/star0.png') no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+span:hover:nth-child(n+1){
+    background: url('./img/star1.png') no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.star1:hover{
+    background: url('./img/star1.png') no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.star2:hover{
+    background: url('./img/star1.png') no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}*/
+
+
