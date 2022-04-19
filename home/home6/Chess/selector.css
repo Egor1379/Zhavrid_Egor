@@ -17,6 +17,6 @@
     color: blue;
 }
 
-a:before{
+a[href$=".shtml"]:before{
     content:url('image/extref.png');
 }

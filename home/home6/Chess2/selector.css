@@ -1,0 +1,26 @@
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.date {
+    color: green;
+}
+
+.champion {
+    color: red;
+}
+
+.biography {
+    font-style: italic;
+    color: blue;
+}
+
+a[href$=".shtml"]{
+    display: inline-block;
+    background-image: url('image/extref.png');
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+    padding-left: 15px;
+}
