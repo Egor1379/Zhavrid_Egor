@@ -17,16 +17,16 @@
     background-color: black;
  }
 
-tr:first-child td{
-    background-color: rgb(144,238,144) !important;
+ table.CHESS tr:first-child td{
+    background-color: rgb(144,238,144);
     height: 25px;
 }
-tr:last-child td{
-   background-color: rgb(144,238,144) !important;
+table.CHESS tr:last-child td{
+   background-color: rgb(144,238,144);
    height: 25px;
 }
 
- td:first-child, td:last-child {
-    background-color: rgb(144,238,144) !important;
-    width: 25px !important;
+table.CHESS td:first-child, table.CHESS td:last-child{
+    background-color: rgb(144,238,144);
+    width: 25px;
 }
