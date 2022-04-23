@@ -10,7 +10,7 @@ h1{
     width: 80px;
     height: 80px;
 }
-h1 ~ span.star1:hover{
+h1 ~ span:hover{
     background: url('img/star1.png') no-repeat;
     display: inline-block;
     width: 80px;
@@ -28,18 +28,8 @@ h1 ~ span.star1:hover{
 
 
 
-/*.star1:hover{
-    background: url('./img/star1.png') no-repeat;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-}
 
-.star2:hover{
-    background: url('./img/star1.png') no-repeat;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-}*/
+
+
 
 
