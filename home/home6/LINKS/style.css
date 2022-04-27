@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px 0 0 20px;
+}
+
+div{
+    height: 30px;
+    margin-top: 50px;
+}
+
+div a{
+color: green;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+display: inline-block;
+}
+
+div a:hover{
+    color: red;
+}
+
+/*Первая строка*/
+
+
+.line1 span{
+    display: inline-block;
+    background-color: red;
+    width: 3px;
+    height: 100%;
+}
+
+/*вторая строка*/
+
+.line2 a::after{
+    content: '|';
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.line2 a:last-child:after{
+    content:none;
+}
+
+/*Третья линия*/
+
+.line3 a::before{
+    content: '|';
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.line3 a:first-child::before{
+    content:none;
+}
+
+/*Четвертая линия*/
+
+td{
+    border-right-style: solid;
+    border-color: red; 
+    padding: 0 15px 0 15px;   
+}
+
+td:last-child{
+    border-right-style: none;
+}
