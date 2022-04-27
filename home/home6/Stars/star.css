@@ -4,19 +4,21 @@ h1{
     color: red;
 }
 
-.star1,.star2,.star3,.star4,.star5{
-    background: url('img/star0.png') no-repeat;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-}
-h1 ~ span:hover{
-    background: url('img/star1.png') no-repeat;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
+img{
+    float: right;
 }
 
+div{
+    float: left;
+}
+
+div img:hover{
+    content: url(img/star1.png);
+}
+
+img:hover ~ img{
+    content: url(img/star1.png);
+}
 
 
 
