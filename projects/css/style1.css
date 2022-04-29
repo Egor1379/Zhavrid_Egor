@@ -17,19 +17,25 @@ a{
     text-decoration: none;
 }
 
-
-
-/*Header*/
-
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 
 .container{
     width: 1200px;
     margin: 0 auto;
 }
 
+
+/*Header*/
+
+
+
 .header{
     background: #1B1B1C;
-    height: 52px; 
+    padding-bottom: 12px;
 }
 
 .header .container{
@@ -76,11 +82,280 @@ a{
 /*menu__top*/
 
 
-.menu__top{
-    
+
+.menu__left{
+    float: left;
+}
+
+.menu__left li{
+    float: left;
+    padding: 24px 12px;
+    height: 63px;
+}
+
+.menu__left li{
+    font-weight: 700;
+    line-height: 19px;
+    color: #1B1B1C;
+}
+
+.menu__left li:hover{
+    background-color: #F2F2F2;
+}
+
+.menu__left li:last-child{
+    color: #D01345;
+    font-weight: bold;
+}
+
+.social{
+    float: right;
+}
+
+.social li{
+    float: left;
+    margin-left: 28px;
+    padding-top: 22px;
+}
+
+.search{
+    width: 251px;
+    height: 39px;
+    opacity: 0.3;
+    border-radius: 50px;
+    float: right;
+    margin-top: 12px;
+    padding-top: 11px;
+    padding-left: 16px;
+    background: url('../img/search.svg') no-repeat 221px 11px;
+    background-color: #C4C4C4;
 }
 
 
 
 
+/*menu__bottom*/
 
+.menu__bottom{
+    border-top: 1px solid #C4C4C4;
+}
+
+.menu__bottom li{
+    float: left;
+    margin-right: 32px;
+    margin-top: 16px;
+}
+
+.menu__bottom a{
+    font-weight: 500;
+    line-height: 19px;
+    color: #878787;
+}
+
+.menu__bottom a.active{
+    color: #1B1B1C;
+}
+
+
+
+/*breadcrumps*/
+
+.breadcrumps{
+    margin-top: 32px;
+    margin-bottom: 90px;
+}
+
+.breadcrumps li{
+    float: left;
+}
+
+.breadcrumps li:after{
+    content: '/';
+    font-weight: 500;
+    line-height: 19px;
+    color: #878787;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+}
+
+.breadcrumps li:last-child:after{
+    content: '';
+}
+
+.breadcrumps li a{
+    font-weight: 500;
+    line-height: 19px;
+    color: #878787;
+}
+
+
+
+/*description*/
+
+.description{
+    padding-bottom: 45px;
+}
+
+.gallery{
+    padding-top: 0.1px;
+    float: left;
+}
+
+.gallery ul{
+    float: left;
+}
+
+.gallery ul li{
+    width: 166px;
+    height: 166px;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.gallery ul li:first-child{
+    border: 1px solid #C4C4C4;
+    padding-top: 14px;
+}
+
+.big__photo{
+    width: 500px;
+    height: 500px;
+    background: url('../img/slide_b.png') center no-repeat;
+    margin-left: 191px;
+    margin-top: 48px;
+}
+
+.description__text{
+    float: left;
+    width: 400px;
+    margin-left: 95px; 
+}
+
+.stars{
+
+}
+
+.stars li{
+   float: left;
+   width: 18px;
+   height: 18px;
+   background: url('../img/Star1.png') no-repeat center; 
+}
+
+.stars li:last-child{
+    background: url('../img/Star5.png') no-repeat center;
+}
+
+.description h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.description .light{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    margin-bottom: 40px;
+}
+
+.description .light span{
+    float: left;
+    margin-right: 40px;
+}
+
+.description h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    margin-bottom: 27px;
+}
+
+.basket button{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 178px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 24px;
+    margin-bottom: 27px;
+}
+
+.basket img:first-of-type{
+    margin-right: 26px;
+}
+
+.descr_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    margin-bottom: 18px;
+}
+
+.size{
+
+}
+
+.size li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #C4C4C4;
+    padding-top: 6px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 36px;
+}
+
+.size li:last-child{
+    padding-right: 0;
+}
+
+.size .active{
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.item-logo img{
+    float: left;
+    margin-right: 4px;
+}
+
+.item-logo p{
+    padding-top: 12px;
+}
+
+
+
+/*similar__items*/
+
+.similar__items{
+    background: rgba(196, 196, 196, 0.1);
+}
+
+.similar__items ul{
+
+}
+
+.similar__items ul.item > li{
+    height: 445px;
+    width: 335px;
+    background: #fff;
+}
