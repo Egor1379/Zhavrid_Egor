@@ -1,0 +1,34 @@
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.date {
+    color: green;
+}
+
+.champion {
+    color: red;
+}
+
+.biography {
+    font-style: italic;
+    color: blue;
+}
+
+@media print{
+a:before{
+        content: 'ссылка ';
+    }
+}
+
+@media print{
+    a:after{
+        content: ' на https://chesspro.ru/statistic/botvinnik.shtml';          
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
