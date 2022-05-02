@@ -12,13 +12,13 @@
     
     <form action="https://fe.it-academy.by/TestForm.php" method="post">
 
-            <label>Название статьи:</label>
-                <input type="text" name="article">
+            <label for="art">Название статьи:</label>
+                <input type="text" name="article" id="art">
         
         <br>
 
-        <label>Рубрика:</label>
-        <select name="category">
+        <label for="categ">Рубрика:</label>
+        <select name="category" id="categ">
             <option value="program">Программирование</option>
             <option value="comp-techn">Компьютерные технологии</option>
             <option value="graphicks">Графика и дизайн</option>
@@ -26,24 +26,27 @@
 
         <br>
 
-        <label>Публикация:</label>
-        <input type="radio" name="answer" value="answer1">
-        <label>на сайте</label>
-        <input type="radio" name="answer" value="answer2">
-        <label>в журнале</label>
-        <input type="radio" name="answer" value="answer3">
-        <label>на сайте и в журнале</label>
+        <label class="public">Публикация:</label>
+        <input type="radio" name="answer" value="answer1" id="answ11">
+        <label for="answ11">на сайте</label>
+        <input type="radio" name="answer" value="answer2" id="answ22">
+        <label for="answ22">в журнале</label>
+        <input type="radio" name="answer" value="answer3" id="answ33">
+        <label for="answ33">на сайте и в журнале</label>
 
         <br>
 
-        <label>Разрешить комментарии:</label>
-        <input type="checkbox" name="check" value="check1" checked>
+        <label for="che">Разрешить комментарии:</label>
+        <input type="checkbox" name="check" value="check1" id="che" checked>
         
         <br>
 
-        <label class="text_article">Текст статьи:</label>
+        <label for="tex" class="text_article">Текст статьи:</label>
         <br>
-        <textarea name="text"></textarea>
+
+
+            <textarea name="text" id="tex"></textarea>
+
 
         <br>
 

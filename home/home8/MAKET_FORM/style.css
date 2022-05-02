@@ -33,5 +33,127 @@ label{
 
 }
 
+input[name="article"], select{
+    position: fixed;
+    left: 210px;
+}
+
+[type="radio"], [for="answ11"],
+[for="answ22"],
+[for="answ33"]
+{
+    position: relative;
+    left: 100px;
+}
 
 
+
+
+@media all and (max-width: 400px){
+    input[name="article"]{
+        position: fixed;
+        left: 20px;
+        top: 84px;
+        margin-top: 10px;
+    }
+
+label[for="categ"]{
+    position: fixed;
+    left: 20px;
+    top: 112px;
+    margin-top: 10px;
+}
+
+    select{
+        position: fixed;
+        left: 20px;
+        top: 134px;
+        margin-top: 10px;
+    }
+
+    .public{
+        position: fixed;
+        left: 20px;
+        top: 158px;
+        margin-top: 10px;
+    }
+
+    #answ11{
+        position: fixed;
+        left: 20px;
+        top: 185px;
+        margin-top: 10px;
+    }
+
+    [for="answ11"]{
+        position: fixed;
+        left: 40px;
+        top: 180px;
+        margin-top: 10px;
+    }
+
+    #answ22{
+        position: fixed;
+        left: 20px;
+        top: 204px;
+        margin-top: 10px;
+    }
+
+    [for="answ22"]{
+        position: fixed;
+        left: 40px;
+        top: 199px;
+        margin-top: 10px;
+    }
+
+    #answ33{
+        position: fixed;
+        left: 20px;
+        top: 224px;
+        margin-top: 10px;
+    }
+
+    [for="answ33"]{
+        position: fixed;
+        left: 40px;
+        top: 220px;
+        margin-top: 10px;
+    }
+
+    [for="che"]{
+        position: fixed;
+        left: 20px;
+        top: 240px;
+        margin-top: 10px;
+    }
+
+    #che{
+        position: fixed;
+        left: 194px;
+        top: 245px;
+        margin-top: 10px;
+    }
+
+    [for="tex"]{
+        position: fixed;
+        left: 20px;
+        top: 268px;
+        margin-top: 10px;
+    }
+
+    #tex{
+        position: fixed;
+        left: 20px;
+        top: 294px;
+        margin-top: 10px;
+    }
+
+    [type="submit"]{
+        position: fixed;
+        left: 20px;
+        top: 340px;
+        margin-top: 10px;
+    }
+
+
+}
