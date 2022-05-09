@@ -1,0 +1,110 @@
+@media all and (max-width:1233px) {
+    .menu, .banner{
+        height: 750px;
+    }
+}
+
+@media all and (max-width:1078px) {
+    .menu, .banner{
+        height: 900px;
+
+    }
+}
+
+@media all and (max-width:991px) {
+    .menu, .banner{
+        height: 1100px;
+    }
+}
+
+@media all and (max-width:942px) {
+    img{
+        width: 300px;
+        float: none;
+    }
+    }
+
+    @media all and (max-width:859px) {
+        .menu{
+            width: 200px;
+            height: 1000px;
+        }
+        .banner{
+            height: 1000px;
+        }
+        .content{
+            margin-left: 200px;
+        }
+    }
+
+    @media all and (max-width:793px){
+        .menu, .banner{
+            height: 1100px;
+        }
+    }
+
+    @media all and (max-width:759px){
+        .menu, .banner{
+            height: 1300px;
+        }
+        img{
+            width: 200px;
+            float: none;
+            
+        }
+    }
+
+    @media all and (max-width:683px){
+        .menu, .banner{
+            height: 1400px;
+        }
+}
+
+@media all and (max-width:671px){
+    .menu, .banner{
+        height: 1100px;
+        width: 100px;
+    }
+    .content{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    h4 {
+        font-size: 16px;
+}
+li {
+        font-size: 12px;
+        margin: 4px 0 0 4px;
+}
+ul {
+    margin: 10px 20px 0 10px;
+ }
+ img{
+     width: 350px;
+ }
+}
+@media all and (max-width:598px){
+    .menu{
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    .banner{
+        float: none;
+        height: 50px;
+        width: 100%; 
+    }
+    .content{
+        margin: 0;
+
+    }
+    img{
+        float: left;
+    }
+}
+
+@media all and (max-width:395px){
+    img{
+        width: 200px;
+    }
+}

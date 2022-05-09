@@ -347,7 +347,19 @@ a{
 /*similar__items*/
 
 .similar__items{
+    padding-top: 40px;
+    padding-bottom: 100px;
     background: rgba(196, 196, 196, 0.1);
+}
+
+.similar__items h3{
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+
 }
 
 .similar__items ul{
@@ -358,4 +370,41 @@ a{
     height: 445px;
     width: 335px;
     background: #fff;
+}
+
+.similar__items ul.item > li div:first-child{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 18px;
+}
+
+.similar__items ul.item > li div:nth-child(2){
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.similar__items h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    padding-left: 42px;
+    margin-bottom: 17px;
+}
+
+.similar__items .stars{
+    padding-left: 22px;
+    float: left;
+    margin-top: 5px;
+}
+
+.similar__bottom h5{
+    float: right;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    margin-right: 26px;
 }
