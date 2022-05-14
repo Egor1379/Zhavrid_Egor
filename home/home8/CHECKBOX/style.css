@@ -1,0 +1,53 @@
+input[type="checkbox"]{
+    display: none;
+}
+
+label[for="check1"]{
+    position: relative;
+}
+
+label[for="check1"]::before{
+        content: '';
+        width: 112px;
+        height: 114px;
+        background: url(img/osx-checkbox-and-radiobutton.webp) no-repeat -178px -163px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        background-size: 800px;
+}
+
+input[name="checkbox1"]:checked + label[for="check1"]::before{
+    content: '';
+    width: 112px;
+    height: 114px;
+    background: url(img/osx-checkbox-and-radiobutton.webp) no-repeat -499px -163px;
+    position: absolute;
+    background-size: 800px;
+}
+
+label[for="check2"]{
+    position: relative;
+}
+
+label[for="check2"]::before{
+    content: '';
+    width: 50px;
+    height: 25px;
+    background: url('img/check0.png') no-repeat -50px 0px;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    background-size: 100px;
+}
+
+input[name="checkbox2"]:checked + label[for="check2"]::before{
+    content: '';
+    width: 50px;
+    height: 25px;
+    background: url('img/check0.png') no-repeat 0px 0px;
+    position: absolute;
+    background-size: 100px;
+}
+
+
