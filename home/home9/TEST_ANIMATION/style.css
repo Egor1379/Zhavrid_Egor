@@ -1,0 +1,89 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+div.container{
+    margin: 20px;
+    margin-top: 100px;
+}
+
+p.anim1{
+    float: left;
+    color: red;
+    background-color: rgb(226, 229, 43);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 0 20px;
+    transition-duration: 1.5s;
+    transition-delay: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+}
+
+p.anim1:hover{
+    background-color: blue;
+    color: white;
+}
+
+div.anim2{
+    float: left;
+    margin-left: 150px;
+}
+
+div.anim2 img{
+    transition: transform 2s;
+    width: 200px;
+}
+
+div.anim2 img:hover{
+transform: scale(1.5);
+}
+
+
+@keyframes anim3{
+    from {background-color: rgb(43, 229, 124);}
+    to {background-color: chocolate;}
+}
+
+p.anim3{
+    float: left;
+    color: white;
+    background-color: rgb(229, 43, 145);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 0 150px;
+    animation: anim3 2s steps(10) infinite;
+}
+
+div.anim4{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.anim4 img{
+    -webkit-clip-path: circle(100px at 50% 50%);
+    width: 300px;
+    transition-duration: 2s;
+}
+
+.anim4 img:hover{
+    -webkit-clip-path: none;
+    width: 500px;
+}
+
+
