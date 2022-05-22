@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes MyAnimation1{
+    from {background: url('img/sprite.png') 0 0;}
+    to {background: url('img/sprite.png') 1536px 0;}
+}
+
+.sprite{
+    width: 280px;
+    height: 549.5px;
+    animation: MyAnimation1 4s steps(10) infinite;
+    margin: 50px auto;
+}
