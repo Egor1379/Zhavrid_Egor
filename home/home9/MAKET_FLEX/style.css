@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(178, 178, 241, 0.811);
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0 10px 0; 
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu{
+    flex-basis: 300px;
+    flex-grow: 1;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(240,230,140);
+    padding: 20px 0 20px 20px;
+}
+
+h4{
+    font-size: 26px;
+}
+
+.menu ul{
+    margin: 20px 20px 0 15px;
+}
+
+.menu li{
+    margin: 10px 0 0 10px;
+    font-size: 22px;
+}
+
+.content1{
+    flex-shrink: 10;
+    margin-left: 20px;
+    background: url('img/ball.gif') top right repeat-y;
+    padding: 0px 30px 0px 15px;
+    background-color: white;
+    }
+
+
+h2{
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+img{
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+
+
