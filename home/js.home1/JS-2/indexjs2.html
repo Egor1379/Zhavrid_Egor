@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS</title>
-
     <script>
         var LastName = prompt('Введите вашу фамилию');
         console.log(LastName);
@@ -21,40 +20,19 @@
         var ageYears = age + 5;
         var man = confirm('Вы мужчина?');
         var gender;
-            if (man) {
-                gender = "мужской";
-            }
-            else {
-                gender = "женский";
-            }
-            
-        var pension;
-            if (man && age >= 63) {
-                pension = "да";
-            }
-            else {
-                 if(man && age < 63)
-                pension = "нет";
-            }
 
-            if(man == false && age >= 58) {
-                pension = "да";}
-            else {
-                if(man == false && age < 58)
-                pension = "нет";
-            } 
-        var no;
-            if (!LastName || !FirstName || !PatronName || isNaN(age) ) {
-            no = "Данные введены некорректно";
-            alert(no);}
-            else {
-                alert( "ваше ФИО: " + LastName + ' ' + FirstName + ' ' + PatronName + "\n" 
+        var gender = (man ? 'мужской' : 'женский');
+        
+        var pension = (man == true && age >= 63 ? "да" : "нет");
+        var pension = (man == false && age >= 58 ? "да" : "нет");
+
+
+        alert( "ваше ФИО: " + LastName + ' ' + FirstName + ' ' + PatronName + "\n" 
                 + "ваш возраст в годах: " + age + "\n"
                 + "ваш возраст в днях: " + ageDays + "\n"
                 + "через 5 лет вам будет: " + ageYears + "\n"
                 + "ваш пол: " + gender + "\n" 
                 + "вы на пенсии: " + pension);
-            }
     </script>
 </head>
 <body>
