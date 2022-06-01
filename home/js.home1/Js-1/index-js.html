@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+    <script>
+        var LastName = prompt('Введите вашу фамилию');
+        console.log(LastName);
+        var FirstName = prompt('Введите ваше имя');
+        console.log(FirstName);
+        var PatronName = prompt('Введите вашу фамилию');
+        console.log(PatronName);
+
+        var ageStr = prompt('Укажите свой возраст в годах');
+        var age = parseInt(ageStr);
+        console.log(age);
+        var ageDays = age * 365;
+        var ageYears = age + 5;
+        var man = confirm('Вы мужчина?');
+        var gender;
+            if (man == true) {
+                gender = "мужской";
+            }
+            else {
+                gender = "женский";
+            }
+            
+        var pension;
+            if (man && age >= 63) {
+                pension = "да";
+            }
+            else {
+                 if(man && age < 63)
+                pension = "нет";
+            }
+
+            if(man == false && age >= 58) {
+                pension = "да";}
+            else {
+                if(man == false && age < 58)
+                pension = "нет";
+            } 
+        var no;
+            if (!LastName || !FirstName || !PatronName || isNaN(age) ) {
+            no = "Данные введены некорректно";
+            alert(no);}
+            else {
+                alert( "ваше ФИО: " + LastName + ' ' + FirstName + ' ' + PatronName + "\n" 
+                + "Ваш возраст в годах: " + age + "\n"
+                + "ваш возраст в днях: " + ageDays + "\n"
+                + "через 5 лет вам будет: " + ageYears + "\n"
+                + "ваш пол: " + gender + "\n" 
+                + "вы на пенсии: " + pension);
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
