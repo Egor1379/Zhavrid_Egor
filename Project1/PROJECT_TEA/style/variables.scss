@@ -1,10 +1,31 @@
 
+//colors
+
+$green: #669966;
+$gray: #636363;
+$light-gray: #AEAEAE;
+$dark: #3F3F3F;
+$text: #999999;
+$text-light: #DFDFDF;
+$white: #FFFFFF;
+$red: #E44C50;
 
 //font-size
 
-$fz16: 16px;
-$fz18: 18px;
-$fz21: 21px;
-$fz27: 27px;
-$fz33: 33px;
-$fz40: 40px;
+$fz: 16px;
+$fzs: $fz - 2;
+$fz18: $fz + 2;
+$fz21: $fz + 5;
+$fz27: $fz + 11;
+$fz33: $fz + 17;
+$fz40: $fz + 24;
+
+//font-weight
+
+$reg: 400;
+$bold: 600;
+$ex-bold: 700;
+
+//containers
+
+$xl: 1200px;
