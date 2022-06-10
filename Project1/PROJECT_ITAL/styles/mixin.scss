@@ -1,0 +1,12 @@
+
+@mixin btn($w:260px) {
+    width: $w;
+    height: 60px;
+    background: $dark-yellow;
+    border: none;
+    font-weight: $bold;
+    font-size: $fz18;
+    line-height: 25px;
+    text-align: center;
+    color: $white;
+}
